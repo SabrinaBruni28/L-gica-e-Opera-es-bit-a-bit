@@ -42,34 +42,34 @@ ERRO como saída. Caso algum símbolo das sequências S1 ou S2 seja diferente de
 
 Exemplos de entrada/saída:
 
-Entrada                                 Saída
+Entrada               Saída
 
-4                                       1111
+4                      1111
 1111
 1111
 S1 AND S2 
 
-3                                       101
+3                      101
 101
 000
 S1 OR S2 
 
-4                                       ERRO
+4                      ERRO
 1100
 101
 S1 XOR S2 
 
-7                                       ERRO
+7                      ERRO
 0000000
 0000009
 S2 MOR S1 
 
-4                                       0000
+4                      0000
 1111
 0000
 S2 MOR S1 AND S2 
 
-5                                       11111
+5                      11111
 10100
 11111
 S2 OR S2 AND S2
